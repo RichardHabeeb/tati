@@ -1,12 +1,7 @@
 {
-  "name": "tati",
+  "name": "tatiane-alves-moribe",
   "description": "Homepage for Tatiane Alves Moribe",
   "repository": "https://github.com/richardhabeeb/tati",
-  "keywords": ["python", "fastapi"],
-  "buildpacks": [
-    { "url" : "heroku/python" },
-    { "url" : "https://github.com/mars/create-react-app-buildpack.git" }
-  ],
   "scripts": {
     "build": "vite build"
   }
