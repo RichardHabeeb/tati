@@ -2,5 +2,12 @@
   "name": "tati",
   "description": "Homepage for Tatiane Alves Moribe",
   "repository": "https://github.com/richardhabeeb/tati",
-  "keywords": ["python", "fastapi"]
+  "keywords": ["python", "fastapi"],
+  "buildpacks": [
+    { "url" : "heroku/python" },
+    { "url" : "heroku/nodejs" }
+  ],
+  "scripts": {
+    "build": "vite build"
+  }
 }
