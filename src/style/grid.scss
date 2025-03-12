@@ -1,0 +1,16 @@
+@use "colors.scss";
+
+.layout {
+  display:grid;
+  grid-template-columns: [left-bar] 10% 1fr;
+  grid-template-rows: [top-bar] 10% 1fr;
+
+  div:nth-child(1), div:nth-child(2) {
+    background-color: colors.$baseFont;
+    color: colors.$baseFill;
+  }
+
+  div:nth-child(3) {
+    position:relative;
+  }
+}
